@@ -1,0 +1,31 @@
+/* Fixed bottom position for site description on login page */
+.pagelayout-login.loginright .login-description-container {
+    bottom: 0;
+    background: linear-gradient(#fff0, #000000b8);
+}
+
+.pagelayout-login.loginright .login-description {
+    position: absolute;
+    bottom: 10%;
+    padding-right: 5rem;
+}
+
+/*解决课程注册页面的视频显示尺寸*/
+/* Default styles for screens larger than 1200px (laptops and desktops) */
+#page-enrol-index .enrollment-sections .video-container .videoframe {
+    min-height: 460px;
+}
+
+/* Media Query for iPads (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    #page-enrol-index .enrollment-sections .video-container .videoframe {
+        min-height: 240px; /* Adjust the height for iPads */
+    }
+}
+
+/* Media Query for iPhones (up to 767px) */
+@media (max-width: 767px) {
+    #page-enrol-index .enrollment-sections .video-container .videoframe {
+        min-height: 200px; /* Adjust the height for iPhones */
+    }
+}

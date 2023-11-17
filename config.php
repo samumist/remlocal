@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 require_once(__DIR__ . '/lib.php');
 
 $THEME->name = 'remlocal';
-$THEME->sheets = [];
+$THEME->sheets = ['main','extra'];
 $THEME->parents = ['remui'];
 $THEME->enable_dock = false;
 $THEME->yuicssmodules = array();
