@@ -1,0 +1,23 @@
+@font-face { /* where FontName and fontname represents the name of the font you want to add */
+     font-family: 'Gesso';
+     src: url([[font:theme|gesso.ttf]]);
+     src: url([[font:theme|gesso.ttf]]) format('truetype')
+     font-weight: normal;
+     font-style: normal;
+   }
+
+@font-face { /* where FontName and fontname represents the name of the font you want to add */
+     font-family: 'Pixelify Sans';
+     src: url([[font:theme|PixelifySans-Regular.ttf]]);
+     src: url([[font:theme|PixelifySans-Regular.ttf]]) format('truetype')
+     font-weight: normal;
+     font-style: normal;
+   }
+
+@font-face { /* where FontName and fontname represents the name of the font you want to add */
+     font-family: 'Gluten';
+     src: url([[font:theme|Gluten-Regular.ttf]]);
+     src: url([[font:theme|Gluten-Regular.ttf]]) format('truetype')
+     font-weight: normal;
+     font-style: normal;
+   }

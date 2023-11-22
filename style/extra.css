@@ -1,3 +1,7 @@
+/* Accordion */
+
+/* The chevron svg icons are white when the accordion section is expanded and dark grey when the accordion section is collapsed. If you change the background colors for expanded and collapsed accordion sections you will also need generate new svg icons and update their url's in the code below */
+
 div.card-header button.collapsed {
     background-color: WhiteSmoke !important;
     border-radius: 40px !important;
@@ -119,4 +123,19 @@ div.accordion button.collapsed::before {
     .quicklink:hover a {
         color: white !important;
     }
+}
+
+/* Popover */
+
+.popover-header {
+  font-weight: 700 !important;
+  background-color: DodgerBlue !important;
+  color: white !important;
+  border: 2px solid Dodgerblue !important;
+  border-radius: 15px 15px 0px 0px !important;
+}
+
+.popover {
+   box-shadow: 0px 8px 12px rgba(123, 126, 128, 0.400);
+   border-radius: 16px 16px 15px 15px !important;
 }
