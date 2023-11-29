@@ -15,9 +15,9 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * remui config.
+ * remlocal config.
  *
- * @package   theme_remui
+ * @package   theme_remlocal
  * @copyright 2016 Frédéric Massart
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
