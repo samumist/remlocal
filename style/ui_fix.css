@@ -1,0 +1,160 @@
+/* Disable readmore for general section */
+
+body#page-course-view-remuiformat .text-clamp.text-clamp-3 {
+    -webkit-line-clamp: inherit;
+}
+
+body#page-course-view-remuiformat
+    .course-content
+    .sections
+    #section-0
+    .general-section
+    .section-details
+    .generaldetails
+    .generalsectioninfo
+    .readbtn {
+    display: none !important;
+}
+
+/* hide grade and participants link */
+.secondary-navigation li[data-key="participants"],
+.secondary-navigation li[data-key="grades"] {
+    display: none;
+}
+
+/* change background color of the activity card in remuiformat card layout */
+body#page-course-view-remuiformat
+    .course-content
+    .sections
+    #section-0
+    .general-section
+    .activities-wrapper
+    .general-section-activities
+    .activity,
+body#page-course-view-remuiformat
+    .remui-format-card.single-section-format
+    .activity-cards.section
+    .activity
+    .single-card {
+    background-color: #0000ff29 !important;
+}
+
+/* login and sign up page customization*/
+/* change white background to a different color in the right region */
+#page-login-index .loginform,
+#page-login-index .loginform .card,
+#page-login-signup .signupform,
+#page-login-signup .signupform .card {
+    background-color: #ccc !important;
+}
+
+/* change the color of Sign In and Remember username text. */
+#page-login-index label[for="rememberusername"] {
+    color: red;
+}
+#page-login-index .loginform h3 {
+    color: red;
+}
+
+/* change the color of Login button. */
+#page-login-index #loginbtn {
+    background-color: red !important;
+    border-color: red !important;
+}
+
+/* Customize text color of the section name in card layout */
+body#page-course-view-remuiformat .remui-format-card.all-section-format .section .sectionname {
+    color: blue !important;
+}
+body#page-course-view-remuiformat
+    .remui-format-card.single-section-format
+    .sections
+    .section
+    .section-details
+    .general-single-card
+    .header-progresbar-wrapper
+    .section-title {
+    color: blue !important;
+}
+
+/* remove activity title from activity page for card layout in remuiformat */
+
+body#page-course-view-remuiformat .activity .activitytitle .media-body > :first-child {
+    display: none;
+}
+
+/* change size of Activity icon in the Activity page of card layout */
+body#page-course-view-remuiformat .activityiconcontainer {
+    height: 80px;
+    width: 80px;
+}
+
+body#page-course-view-remuiformat li.activity img.activityicon {
+    height: 40px !important;
+    width: 40px !important;
+}
+
+/* hide Resume button on the Course Progress block while using Card Course */
+.header-sub-section .progress-resume-wrapper .btn-block {
+    display: none;
+}
+
+/* customize course card background color for Course overview and Recently accessed courses */
+.block-myoverview .card.dashboard-card .card-body,
+.block-myoverview .edw-course-list-container .list-group-item,
+.block-myoverview .edw-course-summary-container .list-group-item {
+    background-color: pink;
+}
+
+.block-recentlyaccessedcourses .card.dashboard-card .card-body {
+    background-color: red;
+}
+
+/* hide Dashboard and Profile link from user menu in the Right region */
+#usermenu-carousel .dropdown-item[title="Profile"] {
+    display: none !important;
+}
+
+/* change Text color in Edwiser RemUI theme */
+* {
+    color: red !important;
+}
+
+/* change page background color */
+#page {
+    background: #558696;
+}
+/* remove Teacher Icon from Course archive and My courses page */
+.instructor-info-wrapper a img {
+    display: none;
+}
+
+/* Remove Task to Complete Block START */
+@media only screen and (min-width: 780px) {
+    .block.block_myoverview #new-course-stats {
+        padding-right: 1.715rem;
+        padding-left: 1.715rem;
+        padding-bottom: 1.715rem;
+        width: 100%;
+    }
+
+    .block.block_myoverview #new-course-stats .panel-body .counter-label {
+        padding-bottom: 1rem;
+    }
+
+    .block.block_myoverview #new-course-stats .panel-body {
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }
+}
+.block.block_myoverview #new-upcoming-block {
+    display: none;
+}
+/* Remove Task to Complete Block END */
+
+/* Slider image in Mobile phones are distorted/blurred/not clear */
+body#page-site-index.latest-frontpage section.section-slider .carousel-inner .carousel-item img {
+    width: 100% !important;
+    min-height: auto !important;
+    max-height: auto !important;
+}
