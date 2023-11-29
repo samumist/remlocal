@@ -29,3 +29,59 @@
         min-height: 200px; /* Adjust the height for iPhones */
     }
 }
+
+/* Remove 'switch to standard theme' link for mobile devices on Moodle */
+#theme_switch_link {
+    display: none;
+}
+
+/* hide section number in card layout in the remuiformat */
+body#page-course-view-remuiformat
+    .remui-format-card.single-section-format
+    .sections
+    .section
+    .section-details
+    .general-single-card
+    .header-progresbar-wrapper
+    .section-title
+    span.sno {
+    display: none !important;
+}
+
+/* hide Course information/details in the remuiformat */
+body#page-course-view-remuiformat
+    .course-content
+    .sections
+    #section-0
+    .general-section
+    .section-details
+    .coursedetails
+    .details {
+    display: none !important;
+}
+
+/* remove course start date from Course cards */
+#course-archive-main-container .edw-course-card-grid .date,
+.profile-cards-wrapper .edw-course-card-grid .date {
+    display: none;
+}
+
+/* remove the floating help icon (?) in Moodle 4.0 */
+.btn-floating[data-action="footer-popover"] {
+    display: none !important;
+}
+
+/* customize the text color of the section name in Card Layout */
+body#page-course-view-remuiformat .remui-format-card.all-section-format .section .sectionname {
+    color: blue !important;
+}
+body#page-course-view-remuiformat
+    .remui-format-card.single-section-format
+    .sections
+    .section
+    .section-details
+    .general-single-card
+    .header-progresbar-wrapper
+    .section-title {
+    color: blue !important;
+}
