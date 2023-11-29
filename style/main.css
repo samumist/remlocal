@@ -71,6 +71,12 @@ body#page-course-view-remuiformat
     display: none !important;
 }
 
+/* remove activity title from activity page for card layout in remuiformat */
+
+body#page-course-view-remuiformat .activity .activitytitle .media-body > :first-child {
+    display: none;
+}
+
 /* customize the text color of the section name in Card Layout */
 body#page-course-view-remuiformat .remui-format-card.all-section-format .section .sectionname {
     color: blue !important;
