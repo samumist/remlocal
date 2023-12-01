@@ -22,10 +22,21 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
+// This line protects the file from being accessed by a URL directly.
 defined('MOODLE_INTERNAL') || die();
 
+// This is the version of the plugin.
 $plugin->version   = 2023101100;
+
+// This is the version of Moodle this plugin requires (this one is for Moodle 4.0).
 $plugin->requires  = 2022041200;
+
+// This is the release of this plugin.
 $plugin->release   = '4.0.12';
+
+// This is the component name of the plugin - it always starts with 'theme_'
+// for themes and should be the same as the name of the folder.
 $plugin->component = 'theme_remlocal';
+
+// This is a list of plugins, this plugin depends on (and their versions). Here we depend on the remui 4.0.12 theme.
 $plugin->dependencies = ['theme_remui' => '2023101100'];

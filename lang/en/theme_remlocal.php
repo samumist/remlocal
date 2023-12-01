@@ -22,7 +22,11 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
+// This line protects the file from being accessed by a URL directly.
 defined('MOODLE_INTERNAL') || die();
 
+// The name of our plugin.
 $string['pluginname'] = 'Remlocal';
+
+// The Description of the plugin.
 $string['choosereadme'] = 'Remlocal is a child theme of Remui theme';
