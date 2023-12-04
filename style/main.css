@@ -67,9 +67,9 @@ body#page-course-view-remuiformat
 }
 
 /* remove the floating help icon (?) in Moodle 4.0 */
-.btn-floating[data-action="footer-popover"] {
-    display: none !important;
-}
+/* .btn-floating[data-action="footer-popover"] { */
+/*     display: none !important; */
+/* } */
 
 /* remove activity title from activity page for card layout in remuiformat */
 
@@ -90,4 +90,18 @@ body#page-course-view-remuiformat
     .header-progresbar-wrapper
     .section-title {
     color: blue !important;
+}
+
+#trailshadebox_content ul.gtopics {
+    margin: 20px 15px 20px;
+}
+
+#trailshadebox_content.absolute {
+    z-index: 6;
+}
+
+#trailiconcontainer #star,
+#trailiconcontainer #check,
+#trailiconcontainer #like {
+    z-index: 0;
 }
