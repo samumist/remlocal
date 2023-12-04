@@ -151,6 +151,6 @@ $PAGE->requires->strings_for_js(array(
 ), 'theme_remui');
 
 // RemUI Usage Tracking (RemUI Analytics).
-// It will not work if curl is not istalled
+// It will not work if curl is not istalled.
 $ranalytics = new \theme_remui\usage_tracking();
 $ranalytics->send_usage_analytics();

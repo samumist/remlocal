@@ -190,3 +190,6 @@ if (\theme_remui\toolbox::get_setting('enabledictionary') && !$PAGE->user_is_edi
     $templatecontext['enabledictionary'] = true;
 }
 
+if ("admin-setting-themesettingremui" == $PAGE->pagetype) {
+    $templatecontext['enablebeacon'] = true;
+}
