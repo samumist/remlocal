@@ -10,7 +10,6 @@ div.card-header button.collapsed {
     box-shadow: none !important;
 }
 
-
 div.accordion button::before {
     position: absolute;
     display: block;
@@ -61,7 +60,6 @@ div.accordion button.collapsed::before {
     transform: scale(1.5);
 }
 
-
 .icon-link:hover {
     border: 1px solid DodgerBlue !important;
     transform: scale(1.3);
@@ -71,14 +69,13 @@ div.accordion button.collapsed::before {
     color: DodgerBlue;
 }
 
-div.card-header button.collapsed  {
+div.card-header button.collapsed {
     background-color: WhiteSmoke !important;
     border-radius: 40px !important;
     color: #454646 !important;
     text-shadow: none !important;
     box-shadow: none !important;
 }
-
 
 div.accordion button::before {
     position: absolute;
@@ -108,8 +105,22 @@ div.accordion button.collapsed::before {
     transform: rotate(0deg);
 }
 
-
-.quicklink a::before {height: 0px;}.block-content > .flex_container_1 {margin-top: 0px;margin-bottom: 0px;padding-top: 10px;padding-bottom: 20px;}.block-content > .flex_container_2 {margin-top: 10px;margin-bottom: 10px;padding-top: 20px;padding-bottom: 20px;}@media (hover: hover) {
+.quicklink a::before {
+    height: 0px;
+}
+.block-content > .flex_container_1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.block-content > .flex_container_2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+@media (hover: hover) {
     .quicklink:hover {
         background-color: Dodgerblue !important;
         border: 2px solid #2091f7 !important;
@@ -128,48 +139,51 @@ div.accordion button.collapsed::before {
 /* Popover */
 
 .fa_button_1:hover {
-  border: 1px solid DodgerBlue !important;
+    border: 1px solid DodgerBlue !important;
 }
 
 .fa_button_1 i {
-  transition: transform 0.4s ease;
-  color:dimgrey;
+    transition: transform 0.4s ease;
+    color: dimgrey;
 }
 
 .fa_button_1:hover i {
-  transform: scale(1.25);
-  color: DodgerBlue;
+    transform: scale(1.25);
+    color: DodgerBlue;
 }
 
 .popover-header {
-  font-weight: 700 !important;
-  background-color: DodgerBlue !important;
-  color: white !important;
-  border: 2px solid Dodgerblue !important;
-  border-radius: 15px 15px 0px 0px !important;
+    font-weight: 700 !important;
+    background-color: DodgerBlue !important;
+    color: white !important;
+    border: 2px solid Dodgerblue !important;
+    border-radius: 15px 15px 0px 0px !important;
 }
 
 .popover {
-   box-shadow: 0px 8px 12px rgba(123, 126, 128, 0.400);
-   border-radius: 16px 16px 15px 15px !important;
+    box-shadow: 0px 8px 12px rgba(123, 126, 128, 0.4);
+    border-radius: 16px 16px 15px 15px !important;
 }
 /* quicklinks */
 
-
 @media (hover: hover) {
- .quicklink-1:hover  {
-    color: DodgerBlue !important;
-    border: 1px solid DodgerBlue!important;
-}
- .quicklink-2:hover  {
-    color: DodgerBlue !important;
-    border: 1px solid DodgerBlue !important;
-}
+    .quicklink-1:hover {
+        color: DodgerBlue !important;
+        border: 1px solid DodgerBlue !important;
+    }
+    .quicklink-2:hover {
+        color: DodgerBlue !important;
+        border: 1px solid DodgerBlue !important;
+    }
 }
 
 /* pills-based Tabs */
 
-#pills-ask-tab.active, #pills-check-tab.active, #pills-approach-tab.active, #pills-explore-tab.active, #pills-problem-tab.active {
+#pills-ask-tab.active,
+#pills-check-tab.active,
+#pills-approach-tab.active,
+#pills-explore-tab.active,
+#pills-problem-tab.active {
     color: white !important;
     background-color: Dodgerblue !important;
     border: 1px solid #2091f7 !important;
@@ -186,20 +200,21 @@ div.accordion button.collapsed::before {
 }
 
 .dropdown-toggle:after {
-  opacity: 1 !important;
-  color: DimGrey;
-  transition-duration: 0.1s !important;
+    opacity: 1 !important;
+    color: DimGrey;
+    transition-duration: 0.1s !important;
 }
 
 .custom_button:after {
- right: 20px !important;
+    right: 20px !important;
 }
 
 ul.dropdown-menu {
     inset: 5px auto auto -15px !important;
 }
 
-.custom_button:focus, .custom_button:active {
+.custom_button:focus,
+.custom_button:active {
     color: white !important;
     background-color: Dodgerblue !important;
     border: 1px solid #2091f7 !important;
@@ -213,15 +228,14 @@ a.dropdown-item:hover {
 
 /* timeline */
 
-
 .main-timeline::before {
-  content: "";
-  display: block;
-  width: 2px;
-  height: 100%;
-  background: #c6c6c6;
-  position: absolute;
-  left: 50%;
+    content: "";
+    display: block;
+    width: 2px;
+    height: 100%;
+    background: #c6c6c6;
+    position: absolute;
+    left: 50%;
 }
 
 .main-timeline .icon::before,
@@ -257,7 +271,7 @@ a.dropdown-item:hover {
 }
 
 .reversed_1::before {
-margin: auto 50% !important;
+    margin: auto 50% !important;
 }
 
 .main-timeline .order_1::before {
@@ -304,281 +318,279 @@ margin: auto 50% !important;
 }
 
 @media screen and (max-width: 767px) {
+    .icon {
+        top: 42% !important;
+    }
 
-.icon {
-   top: 42% !important;
-}
+    .main-timeline::before {
+        left: 0;
+    }
 
-.main-timeline::before {
-    left: 0;
-}
+    .main-timeline .date-content::before {
+        width: 100%;
+        margin: auto 50%;
+    }
 
-.main-timeline .date-content::before {
-    width: 100%;
-    margin: auto 50%;
-}
+    .order_2 {
+        order: 1;
+    }
 
-.order_2 {
-    order: 1;
-}
+    .order_1 {
+        order: 2;
+    }
 
-.order_1 {
-    order: 2;
-}
+    .order_3 {
+        order: 3;
+    }
 
-.order_3 {
-    order: 3;
-}
+    .reversed_2 {
+        order: 1;
+        left: 0 !important;
+    }
 
-.reversed_2 {
-    order: 1;
-    left: 0 !important;
-}
+    .reversed_1 {
+        order: 2;
+    }
 
-.reversed_1 {
-    order: 2;
-}
-
-.reversed_3 {
-    order: 3;
-}
+    .reversed_3 {
+        order: 3;
+    }
 }
 
 @media screen and (max-width: 440px) {
-.icon {
-   visibility: hidden;
-}
+    .icon {
+        visibility: hidden;
+    }
 }
 
 /* timeline planner */
 
 .timeline_section .timeline-date::after {
-  position: absolute;
-  width: 4px;
-  height: 100%;
-  content: "";
-  background-color: #ebebeb;
-  top: 0;
-  right: 30px;
-  z-index: 1;
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    content: "";
+    background-color: #ebebeb;
+    top: 0;
+    right: 30px;
+    z-index: 1;
 }
 
 .timeline_section .timeline-date::before {
-  position: absolute;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  content: "";
-  top: 50%;
-  right: 26px;
-  z-index: 2;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    content: "";
+    top: 50%;
+    right: 26px;
+    z-index: 2;
 }
 
 .planner_item:hover {
-  box-shadow: 0px 8px 12px 2px #C3C7CB !important;
-  transform: scale(1.05);
+    box-shadow: 0px 8px 12px 2px #c3c7cb !important;
+    transform: scale(1.05);
 }
 
 .blue_marker::before {
-  background-color: DodgerBlue;
+    background-color: DodgerBlue;
 }
 
 .yellow_marker::before {
-  background-color: BurlyWood;
+    background-color: BurlyWood;
 }
 
 .pink_marker::before {
-  background-color: HotPink;
+    background-color: HotPink;
 }
 
 @media only screen and (max-width: 455px) {
-.timeline-date h6 {
-  left: -100px !important;
-  transform: rotate(-90deg);
-  top: 10px;
-}
+    .timeline-date h6 {
+        left: -100px !important;
+        transform: rotate(-90deg);
+        top: 10px;
+    }
 
-.timeline_section {
-  padding-left: 65px !important;
-}
+    .timeline_section {
+        padding-left: 65px !important;
+    }
 
-.timeline_section .timeline-date::after {
-  right: 160px !important;
-}
+    .timeline_section .timeline-date::after {
+        right: 160px !important;
+    }
 
-.timeline_section .timeline-date::before {
-  right: 156px !important;
-}
+    .timeline_section .timeline-date::before {
+        right: 156px !important;
+    }
 
-.planner_item {
-  right: 10px;
-}
+    .planner_item {
+        right: 10px;
+    }
 }
 
 /* complex timeline */
 /* The actual timeline (the vertical ruler) */
 .main-timeline-2::after {
-  content: "";
-  position: absolute;
-  width: 0px;
-  border: 1px dashed DarkGrey;
-  background-color: none;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  margin-left: -4px;
+    content: "";
+    position: absolute;
+    width: 0px;
+    border: 1px dashed DarkGrey;
+    background-color: none;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -4px;
 }
 
 /* The circles on the timeline */
 .timeline-section::after {
-  content: "";
-  position: absolute;
-  width: 22px;
-  height: 22px;
-  border: 3px solid #F0F2F5;
-  outline: 1px solid DarkGrey;
-  right: -8px;
-  background-color: DarkGrey;
-  top: 15px;
-  border-radius: 50%;
-  z-index: 1;
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    border: 3px solid #f0f2f5;
+    outline: 1px solid DarkGrey;
+    right: -8px;
+    background-color: DarkGrey;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
 }
 
 /* Add arrows to the left container (pointing right) */
 .left-section::before {
-  content: " ";
-  position: absolute;
-  top: 18px;
-  z-index: 1;
-  right: 30px;
-  border: medium solid white;
-  border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
+    content: " ";
+    position: absolute;
+    top: 18px;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
 }
-
 
 /* Add arrows to the right container (pointing left) */
 .right-2::before {
-  content: " ";
-  position: absolute;
-  top: 18px;
-  z-index: 1;
-  left: 30px;
-  border: medium solid white;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
+    content: " ";
+    position: absolute;
+    top: 18px;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
 .right-2::after {
-  left: -14px;
+    left: -14px;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
-  /* Place the timelime to the left */
-  .main-timeline-2::after {
-    left: 10px !important;
-  }
+    /* Place the timelime to the left */
+    .main-timeline-2::after {
+        left: 10px !important;
+    }
 
-/* Full-width containers */
-  .timeline-section {
-    width: 100% !important;
-    padding-left: 40px !important;
-    padding-right: 25px !important;
-  }
+    /* Full-width containers */
+    .timeline-section {
+        width: 100% !important;
+        padding-left: 40px !important;
+        padding-right: 25px !important;
+    }
 
-/* Make sure that all arrows are pointing leftwards */
-  .timeline-section::before {
-    left: 30px !important;
-    border: medium solid white !important;
-    border-width: 10px 10px 10px 0 !important;
-    border-color: transparent white transparent transparent !important;
-  }
+    /* Make sure that all arrows are pointing leftwards */
+    .timeline-section::before {
+        left: 30px !important;
+        border: medium solid white !important;
+        border-width: 10px 10px 10px 0 !important;
+        border-color: transparent white transparent transparent !important;
+    }
 
-/* Make sure all circles are at the same spot */
-  .left-2::after,
-  .right-2::after {
-    left: -4px !important;
-  }
+    /* Make sure all circles are at the same spot */
+    .left-2::after,
+    .right-2::after {
+        left: -4px !important;
+    }
 
-  .left-2::before {
-    right: auto !important;
-  }
+    .left-2::before {
+        right: auto !important;
+    }
 
-/* Make all right containers behave like the left ones */
-  .right-2 {
-    left: 0% !important;
-  }
+    /* Make all right containers behave like the left ones */
+    .right-2 {
+        left: 0% !important;
+    }
 }
 
 @media screen and (max-width: 320px) {
-  /* Adjusts timeline item positions on small devices*/
-  .main-timeline-2 {
-    left: -5px !important;
-  }
+    /* Adjusts timeline item positions on small devices*/
+    .main-timeline-2 {
+        left: -5px !important;
+    }
 }
 
 .tl-card:hover .color-effect {
-  transform: scale(1.4);
-  filter: saturate(100%);
+    transform: scale(1.4);
+    filter: saturate(100%);
 }
 
 .ac-button {
-  font-family: Poppins;
-  font-weight: 600;
-  font-size: 14px;
-  cursor: pointer;
-  padding: 15px;
-  background-color: DodgerBlue !important;
-  color: white !important;
-  text-shadow: 2px 2px 4px #124C88;
-  transition: all .2s ease-in-out;
-  box-shadow: 0px 0px 15px #053d75 inset;
-  border: none;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 15px;
+    background-color: DodgerBlue !important;
+    color: white !important;
+    text-shadow: 2px 2px 4px #124c88;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0px 0px 15px #053d75 inset;
+    border: none;
 }
 
 .ac-button.collapsed {
-  background-color: #EFEFEF !important;
-  color: #454646 !important;
-  text-shadow: none !important;
-  box-shadow: none !important;
-  border: none;
+    background-color: #efefef !important;
+    color: #454646 !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+    border: none;
 }
 
 .ac-button:focus {
-  border: 1px solid DeepSkyBlue !important;
-  outline: none !important;
+    border: 1px solid DeepSkyBlue !important;
+    outline: none !important;
 }
 
 .ac-button::after {
-   position: relative;
-   display: inline-block;
-   z-index: 2;
-   top: 5px;
-   right: -10px;
-   width: 20px;
-   height: 20px;
-   content: "";
-   background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 448 512' style='enable-background:new 0 0 448 512%3B' xml:space='preserve'%3E%3Cstyle type='text/css'%3E.st0%7Bfill:none%3Bstroke:%23FFFFFF%3Bstroke-width:25%3Bstroke-linecap:round%3Bstroke-miterlimit:10%3B%7D%3C/style%3E%3Cpolyline class='st0' points='33 174.7 224 361.7 416 174.7 '/%3E%3C/svg%3E");
-   background-repeat: no-repeat;
-   transition: transform 0.4s ease-in-out;
-   transform: rotate(180deg);
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+    top: 5px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    content: "";
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 448 512' style='enable-background:new 0 0 448 512%3B' xml:space='preserve'%3E%3Cstyle type='text/css'%3E.st0%7Bfill:none%3Bstroke:%23FFFFFF%3Bstroke-width:25%3Bstroke-linecap:round%3Bstroke-miterlimit:10%3B%7D%3C/style%3E%3Cpolyline class='st0' points='33 174.7 224 361.7 416 174.7 '/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    transition: transform 0.4s ease-in-out;
+    transform: rotate(180deg);
 }
 
 .ac-button.collapsed::after {
-   position: relative;
-   display: inline-block;
-   z-index: 2;
-   top: 5px;
-   right: -10px;
-   width: 20px;
-   height: 20px;
-   content: "";
-   background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 448 512' style='enable-background:new 0 0 448 512%3B' xml:space='preserve'%3E%3Cstyle type='text/css'%3E.st0%7Bfill:none%3Bstroke:%232A2B2B%3Bstroke-width:25%3Bstroke-linecap:round%3Bstroke-miterlimit:10%3B%7D%3C/style%3E%3Cpolyline class='st0' points='33 174.7 224 361.7 416 174.7 '/%3E%3C/svg%3E");
-   background-repeat: no-repeat;
-   transition: transform 0.4s ease-in-out;
-   transform: rotate(0deg);
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+    top: 5px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    content: "";
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 448 512' style='enable-background:new 0 0 448 512%3B' xml:space='preserve'%3E%3Cstyle type='text/css'%3E.st0%7Bfill:none%3Bstroke:%232A2B2B%3Bstroke-width:25%3Bstroke-linecap:round%3Bstroke-miterlimit:10%3B%7D%3C/style%3E%3Cpolyline class='st0' points='33 174.7 224 361.7 416 174.7 '/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    transition: transform 0.4s ease-in-out;
+    transform: rotate(0deg);
 }
 
 .icon-link:hover {
@@ -592,27 +604,26 @@ margin: auto 50% !important;
 
 /* profile */
 .zoom-1 {
-  transition: all 0.6s ease-in-out;
-  filter: brightness(80%) saturate(0%) sepia(40%);
-  transform-origin: 20% 10%;
+    transition: all 0.6s ease-in-out;
+    filter: brightness(80%) saturate(0%) sepia(40%);
+    transform-origin: 20% 10%;
 }
 
 .card:hover .zoom-1 {
-   filter: brightness(100%) saturate(100%) sepia(0%);
-   transform: scale(1.5);
+    filter: brightness(100%) saturate(100%) sepia(0%);
+    transform: scale(1.5);
 }
 
 .zoom-2 {
-  transition: all 0.6s ease-in-out;
-  filter: brightness(80%) saturate(0%) sepia(40%);
-  transform-origin: 80% 10%;
+    transition: all 0.6s ease-in-out;
+    filter: brightness(80%) saturate(0%) sepia(40%);
+    transform-origin: 80% 10%;
 }
 
 .card:hover .zoom-2 {
-   filter: brightness(100%) saturate(100%) sepia(0%);
-   transform: scale(1.5);
+    filter: brightness(100%) saturate(100%) sepia(0%);
+    transform: scale(1.5);
 }
-
 
 .icon-link:hover {
     border: 1px solid DodgerBlue !important;
@@ -633,88 +644,80 @@ margin: auto 50% !important;
 }
 
 .icon-link i {
-  transition: color .2s;
+    transition: color 0.2s;
 }
 
 .card-1:hover .person_container {
-  transform: scale(1.15);
+    transform: scale(1.15);
 }
 
 .card-1:hover .person_circle {
-  transform: translateY(-0.8rem);
+    transform: translateY(-0.8rem);
 }
 
 .card-2:hover .person_container {
-  transform: scale(1.15);
+    transform: scale(1.15);
 }
 
 .card-2:hover .person_circle {
-  transform: translateY(-0.8rem);
+    transform: translateY(-0.8rem);
 }
 
 .card-3:hover .person_container {
-  transform: scale(1.15);
+    transform: scale(1.15);
 }
 
 .card-3:hover .person_circle {
-  transform: translateY(-0.8rem);
+    transform: translateY(-0.8rem);
 }
 
 .card-4:hover .person_container {
-  transform: scale(1.15);
+    transform: scale(1.15);
 }
 
 .card-4:hover .person_circle {
-  transform: translateY(-0.8rem);
+    transform: translateY(-0.8rem);
 }
 
 /* profile 3 */
 .card_1 {
-  background: url("https://moodle400:8890/pluginfile.php/539/mod_folder/content/0/profile3/teacher_1.jpg")
-    50% 50% no-repeat;
-  background-size: 300px;
+    background: url("/pluginfile.php/539/mod_folder/content/0/profile3/teacher_1.jpg") 50% 50% no-repeat;
+    background-size: 300px;
 }
 
 .card_1:hover {
-  background: url("https://moodle400:8890/pluginfile.php/539/mod_folder/content/0/profile3/teacher_1.jpg")
-    40% 20% no-repeat;
-  background-size: 500px;
+    background: url("/pluginfile.php/539/mod_folder/content/0/profile3/teacher_1.jpg") 40% 20% no-repeat;
+    background-size: 500px;
 }
 
 .card_2 {
-  background: url("https://moodle400:8890/pluginfile.php/539/mod_folder/content/0/profile3/teacher_2.jpg")
-    50% 50% no-repeat;
-  background-size: 300px;
+    background: url("/pluginfile.php/539/mod_folder/content/0/profile3/teacher_2.jpg") 50% 50% no-repeat;
+    background-size: 300px;
 }
 
 .card_2:hover {
-  background: url("https://moodle400:8890/pluginfile.php/539/mod_folder/content/0/profile3/teacher_2.jpg")
-    50% 30% no-repeat;
-  background-size: 500px;
+    background: url("/pluginfile.php/539/mod_folder/content/0/profile3/teacher_2.jpg") 50% 30% no-repeat;
+    background-size: 500px;
 }
 
 .card_3 {
-  background: url("https://moodle400:8890/pluginfile.php/539/mod_folder/content/0/profile3/teacher_3.jpg")
-    50% 50% no-repeat;
-  background-size: 300px;
+    background: url("/pluginfile.php/539/mod_folder/content/0/profile3/teacher_3.jpg") 50% 50% no-repeat;
+    background-size: 300px;
 }
 
 .card_3:hover {
-  background: url("https://moodle400:8890/pluginfile.php/539/mod_folder/content/0/profile3/teacher_3.jpg")
-    40% 40% no-repeat;
-  background-size: 500px;
+    background: url("/pluginfile.php/539/mod_folder/content/0/profile3/teacher_3.jpg") 40% 40% no-repeat;
+    background-size: 500px;
 }
 
 .card_4 {
-  background: url("https://moodle400:8890/pluginfile.php/539/mod_folder/content/0/profile3/teacher_4.jpg")
-    50% 50% no-repeat;
-  background-size: 300px;
+    background: url("/pluginfile.php/539/mod_folder/content/0/profile3/teacher_4.jpg") 50% 50% no-repeat;
+    background-size: 300px;
 }
 
 .card_4:hover {
-  background: url("https://moodle400:8890/pluginfile.php/539/mod_folder/content/0/profile3/teacher_4.jpg")
-    40% 20% no-repeat;
-  background-size: 500px;
+    background: url("/pluginfile.php/539/mod_folder/content/0/profile3/teacher_4.jpg") 40% 20% no-repeat;
+    background-size: 500px;
 }
 
 .icon-link-2:hover {
@@ -735,4 +738,3 @@ margin: auto 50% !important;
     border: 1px solid DodgerBlue !important;
     transform: scale(1.2);
 }
-
