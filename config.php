@@ -31,7 +31,7 @@ require_once(__DIR__ . '/lib.php');
 $THEME->name = 'remlocal';
 
 // This setting list the style sheets we want to include in our theme.
-$THEME->sheets = ['fonts','main','extra'];
+$THEME->sheets = ['fontawesome','v4-shims','fonts','main','extra'];
 
 // Tell Moodle to use remui theme as the parent theme
 $THEME->parents = ['remui'];
@@ -39,7 +39,9 @@ $THEME->parents = ['remui'];
 // Backward compatibility
 $THEME->enable_dock = false;
 $THEME->yuicssmodules = array();
-$THEME->javascripts = array("");
+
+// load js file in header
+$THEME->javascripts = array('bootstrap.bundle.min', 'lottie-player-2.0.2', 'lottie-interactivity.min', 'dotlottie-player');
 
 // required to customize renderers
 $THEME->rendererfactory = 'theme_overridden_renderer_factory';
@@ -54,4 +56,3 @@ $THEME->haseditswitch = true;
 $THEME->usescourseindex = true;
 $THEME->usefallback = true;
 
-// Layout omitted to use parent theme's
