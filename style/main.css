@@ -149,3 +149,8 @@ body#page-course-view-remuiformat
     margin: 0;
     padding: 0;
 }
+
+/* hide license alert message'*/
+.alert.text-center.license-notice.alert-dismissible.site-announcement.mb-0.alert-danger {
+    display: none;
+}
