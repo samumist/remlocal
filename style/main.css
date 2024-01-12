@@ -79,7 +79,7 @@ body#page-course-view-remuiformat .activity .activitytitle .media-body > :first-
 
 /* customize the text color of the section name in Card Layout */
 body#page-course-view-remuiformat .remui-format-card.all-section-format .section .sectionname {
-    color: blue !important;
+    color: #5c71cc !important;
 }
 body#page-course-view-remuiformat
     .remui-format-card.single-section-format
@@ -89,9 +89,30 @@ body#page-course-view-remuiformat
     .general-single-card
     .header-progresbar-wrapper
     .section-title {
-    color: blue !important;
+    color: #5c71cc !important;
 }
 
+body#page-course-view-remuiformat .card-section-rightnav,
+body#page-course-view-remuiformat .card-section-leftnav {
+    background-color: #5071cc !important;
+}
+/* modify icon size */
+body#page-course-view-remuiformat .activityiconcontainer {
+    height: 80px;
+    width: 80px;
+}
+
+body#page-course-view-remuiformat li.activity img.activityicon {
+    height: 32px !important;
+    width: 32px !important;
+}
+
+/* matching color with levelups for my-progress widget */
+.progress-bar.bg-success {
+    background-color: #4ade80 !important;
+}
+
+/*trail format fix */
 #trailshadebox_content ul.gtopics {
     margin: 20px 15px 20px;
 }
@@ -150,7 +171,26 @@ body#page-course-view-remuiformat
     padding: 0;
 }
 
+/* reduce random glossary entry font size */
+.block_glossary_random h3 {
+    font-size: 1.1rem;
+}
 /* hide license alert message'*/
 .alert.text-center.license-notice.alert-dismissible.site-announcement.mb-0.alert-danger {
     display: none;
+}
+
+/* modify multiblock nav tab background color */
+.multiblock .nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    color: #ffffff;
+    background-color: #3a53b9 !important;
+}
+
+.multiblock.multiblock-accordion a.btn.btn-link {
+    background-color: transparent;
+}
+
+.multiblock .nav-link {
+    padding: 0.5rem 2.5rem;
 }
