@@ -1,0 +1,1 @@
+{"name":"H4 标题","key":"h4heading","instructions":"可自定义标签的 H4标题文本。","defaults":"icon=fa-file-circle-question,title=\"你的标题文字\",text=\"Enter your text here.\"","body":"<h4 style=\"text-align:left; padding:2rem 0;\"><i class=\"fa-solid {{icon}}\"><!-- icon --></i> \n  {{title}}</h4>\n<br>\n<p>{{text}}</p>","version":"1.0.2"}
