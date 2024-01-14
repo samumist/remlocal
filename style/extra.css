@@ -215,6 +215,7 @@ ul#pills-tab {
 
 ul.dropdown-menu {
     inset: 5px auto auto -15px !important;
+    margin-left: 25px !important;
 }
 
 .custom_button:focus,
