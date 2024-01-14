@@ -686,42 +686,42 @@ a.dropdown-item:hover {
 
 /* profile 3 */
 .card_1 {
-    background: url("/pluginfile.php/539/mod_folder/content/0/profile3/teacher_1.jpg") 50% 50% no-repeat;
+    background: url("https://learningstash.com/frontpage_images/teacher/teacher_1.jpg") 50% 50% no-repeat;
     background-size: 300px;
 }
 
 .card_1:hover {
-    background: url("/pluginfile.php/539/mod_folder/content/0/profile3/teacher_1.jpg") 40% 20% no-repeat;
+    background: url("https://learningstash.com/frontpage_images/teacher/teacher_1.jpg") 40% 20% no-repeat;
     background-size: 500px;
 }
 
 .card_2 {
-    background: url("/pluginfile.php/539/mod_folder/content/0/profile3/teacher_2.jpg") 50% 50% no-repeat;
+    background: url("https://learningstash.com/frontpage_images/teacher/teacher_2.jpg") 50% 50% no-repeat;
     background-size: 300px;
 }
 
 .card_2:hover {
-    background: url("/pluginfile.php/539/mod_folder/content/0/profile3/teacher_2.jpg") 50% 30% no-repeat;
+    background: url("https://learningstash.com/frontpage_images/teacher/teacher_2.jpg") 50% 30% no-repeat;
     background-size: 500px;
 }
 
 .card_3 {
-    background: url("/pluginfile.php/539/mod_folder/content/0/profile3/teacher_3.jpg") 50% 50% no-repeat;
+    background: url("https://learningstash.com/frontpage_images/teacher/teacher_3.jpg") 50% 50% no-repeat;
     background-size: 300px;
 }
 
 .card_3:hover {
-    background: url("/pluginfile.php/539/mod_folder/content/0/profile3/teacher_3.jpg") 40% 40% no-repeat;
+    background: url("https://learningstash.com/frontpage_images/teacher/teacher_3.jpg") 40% 40% no-repeat;
     background-size: 500px;
 }
 
 .card_4 {
-    background: url("/pluginfile.php/539/mod_folder/content/0/profile3/teacher_4.jpg") 50% 50% no-repeat;
+    background: url("https://learningstash.com/frontpage_images/teacher/teacher_4.jpg") 50% 50% no-repeat;
     background-size: 300px;
 }
 
 .card_4:hover {
-    background: url("/pluginfile.php/539/mod_folder/content/0/profile3/teacher_4.jpg") 40% 20% no-repeat;
+    background: url("https://learningstash.com/frontpage_images/teacher/teacher_4.jpg") 40% 20% no-repeat;
     background-size: 500px;
 }
 
