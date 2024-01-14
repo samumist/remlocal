@@ -1,0 +1,30 @@
+/* side bar */
+.drawer.drawer-right .drawerheader {
+    padding: 18px;
+}
+.drawerheader {
+    height: 60px;
+}
+.p-mb-8,
+.p-my-8,
+#block-region-side-pre .block-body-wrapper {
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.drawer.drawer-right {
+    width: 360px;
+    max-width: 360px;
+    right: calc(-360px + -10px);
+    visibility: hidden;
+}
+
+.drawer {
+    filter: drop-shadow(0 3px 15px rgba(92, 107, 121, 0.1));
+}
+
+@media (min-width: 1024px) {
+    .drawer.drawer-right.show ~ #page-footer .floating-buttons-wrapper {
+        right: 368px !important;
+    }
+}

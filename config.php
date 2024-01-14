@@ -31,7 +31,7 @@ require_once(__DIR__ . '/lib.php');
 $THEME->name = 'remlocal';
 
 // This setting list the style sheets we want to include in our theme.
-$THEME->sheets = ['fontawesome','v4-shims','fonts','main','extra'];
+$THEME->sheets = ['fontawesome','v4-shims','fonts','main','sidebar','extra'];
 
 // Tell Moodle to use remui theme as the parent theme
 $THEME->parents = ['remui'];
