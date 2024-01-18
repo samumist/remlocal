@@ -1,0 +1,1 @@
+{"name":"卡片章节背景图","key":"card_layout_chapter_bg_img","instructions":"在卡片课程格式中使用的默认章节背景图","defaults":"","body":"<img src=\"https://source.unsplash.com/random/1318x338/?animal,city,night,fruit\" alt=\"课程章节背景图\" width=\"1318\" height=\"338\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom\">","version":"1.0.0"}
