@@ -107,6 +107,11 @@ body#page-course-view-remuiformat li.activity img.activityicon {
     width: 32px !important;
 }
 
+/* resume button color */
+.header-sub-section .progress-resume-wrapper .btn-block {
+    background-color: #42C6A5 !important;
+    border-color: #44b99c !important;
+}
 /* matching color with levelups for my-progress widget */
 .progress-bar.bg-success {
     background-color: #4ade80 !important;

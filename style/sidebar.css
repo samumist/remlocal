@@ -28,3 +28,13 @@
         right: 368px !important;
     }
 }
+
+.dashboard-card {
+    filter: drop-shadow(0 13px 37px rgba(92, 107, 121, 0));
+}
+
+/* fix distored group avatar */
+.edw-msg-body-list .list-group-item img.rounded-circle {
+    height: 48px !important;
+    width: 48px !important;
+}
