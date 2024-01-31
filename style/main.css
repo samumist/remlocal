@@ -199,11 +199,3 @@ body#page-course-view-remuiformat li.activity img.activityicon {
 .multiblock .nav-link {
     padding: 0.5rem 2.5rem;
 }
-
-body#page-course-view-remuiformat .section-details {
-    border: 1px solid #d7dfe3;
-    border-radius: 8px;
-    position: relative;
-    padding: 1rem;
-    background-color: #fff;
-}
