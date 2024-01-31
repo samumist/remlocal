@@ -109,7 +109,7 @@ body#page-course-view-remuiformat li.activity img.activityicon {
 
 /* resume button color */
 .header-sub-section .progress-resume-wrapper .btn-block {
-    background-color: #42C6A5 !important;
+    background-color: #42c6a5 !important;
     border-color: #44b99c !important;
 }
 /* matching color with levelups for my-progress widget */
@@ -198,4 +198,12 @@ body#page-course-view-remuiformat li.activity img.activityicon {
 
 .multiblock .nav-link {
     padding: 0.5rem 2.5rem;
+}
+
+body#page-course-view-remuiformat .section-details {
+    border: 1px solid #d7dfe3;
+    border-radius: 8px;
+    position: relative;
+    padding: 1rem;
+    background-color: #fff;
 }
