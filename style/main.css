@@ -109,7 +109,7 @@ body#page-course-view-remuiformat li.activity img.activityicon {
 
 /* resume button color */
 .header-sub-section .progress-resume-wrapper .btn-block {
-    background-color: #42C6A5 !important;
+    background-color: #42c6a5 !important;
     border-color: #44b99c !important;
 }
 /* matching color with levelups for my-progress widget */
@@ -223,4 +223,27 @@ body#page-course-view-remuiformat .remui-format-card.all-section-format .section
     height: 100%;
     width: 100%;
     background-position: center !important;
+}
+
+/* stash styles */
+.block_stash h5 {
+    margin-bottom: 1rem;
+    border-width: 0;
+    border-bottom-width: 0px;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color: #e5e7eb;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0em;
+    color: #4b5563;
+    padding-bottom: 10px;
+}
+.block_stash .h5 {
+    font-size: 0.75rem;
+    color: #4b5563;
+}
+.block_stash li {
+    font-size: 0.8rem;
 }
