@@ -247,3 +247,7 @@ body#page-course-view-remuiformat .remui-format-card.all-section-format .section
 .block_stash li {
     font-size: 0.8rem;
 }
+
+.edw-stats-wrapper {
+    border-radius: 8px;
+}
