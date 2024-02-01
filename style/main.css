@@ -199,6 +199,7 @@ body#page-course-view-remuiformat li.activity img.activityicon {
 .multiblock .nav-link {
     padding: 0.5rem 2.5rem;
 }
+
 /*add style for section-details*/
 body#page-course-view-remuiformat .section-details {
     border: 1px solid #d7dfe3;
@@ -213,4 +214,13 @@ body#page-course-view-remuiformat .section-details {
     padding: 1rem;
     border-radius: 8px;
     background-color: #ffffff;
+}
+
+/* course card style fix height */
+
+body#page-course-view-remuiformat .remui-format-card.all-section-format .section .single-card {
+    min-height: 300px;
+    height: 100%;
+    width: 100%;
+    background-position: center !important;
 }
