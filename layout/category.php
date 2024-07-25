@@ -26,6 +26,9 @@ defined('MOODLE_INTERNAL') || die();
 
 require_once("{$CFG->dirroot}/theme/{$PAGE->theme->name}/layout/common.php");
 
+use theme_remui\utility;
+
+global $DB;
 // Get the filters first.
 $filterdata = \theme_remui_coursehandler::get_course_filters_data();
 
@@ -50,7 +53,7 @@ if ($categoryid != "all") {
     $coursecat = core_course_category::get($categoryid);
     $chelper = new coursecat_helper();
     if ($description = $chelper->get_category_formatted_description($coursecat)) {
-        $templatecontext['categorydesciption'] = strip_tags($description);
+        $templatecontext['categorydesciption'] = $description;
     }
 }
 $templatecontext['coursearchivefiltermenumorebutton'] = $courserenderer->get_morebutton_pagetitle($categoryid);
@@ -59,4 +62,25 @@ $templatecontext['defaultcat'] = $categoryid;
 // This will ease us to add body classes directly to the array.
 require_once($CFG->dirroot . '/theme/remui/layout/common_end.php');
 
+// It will handle the view buttons synchronization with myoverview settings
+$viewarray = get_config('block_myoverview', 'layouts');
+$viewarray = explode(',', $viewarray);
+$viewarray = array_combine($viewarray, $viewarray);
+$templatecontext['viewoptions'] = $viewarray;
+$templatecontext['hideavailableview'] = false;
+if(!get_user_preferences('course_view_state')){
+    $templatecontext['viewactivebtn'] = true;
+}
+
+if(count($templatecontext['viewoptions']) == 1){
+    $templatecontext['hideavailableview'] = true;
+}
+
+
+$categories = $DB->get_records('course_categories',array('visible'=>1));
+if(utility::check_user_admin_cap()){
+    $categories = $DB->get_records('course_categories');
+}
+$caegoryfilterhtml = utility::generateCategoryStructure($categories);
+$templatecontext['caegoryfilterhtml'] = $caegoryfilterhtml;
 echo $OUTPUT->render_from_template('theme_remui/coursearchive', $templatecontext);
