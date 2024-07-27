@@ -199,3 +199,55 @@ body#page-course-view-remuiformat li.activity img.activityicon {
 .multiblock .nav-link {
     padding: 0.5rem 2.5rem;
 }
+
+/*add style for section-details*/
+body#page-course-view-remuiformat .section-details {
+    border: 1px solid #d7dfe3;
+    border-radius: 8px;
+    position: relative;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.path-mod .activity-description {
+    margin-top: 10px;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+/* course card style fix height */
+
+body#page-course-view-remuiformat .remui-format-card.all-section-format .section .single-card {
+    min-height: 300px;
+    height: 100%;
+    width: 100%;
+    background-position: center !important;
+}
+
+/* stash styles */
+.block_stash h5 {
+    margin-bottom: 1rem;
+    border-width: 0;
+    border-bottom-width: 0px;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color: #e5e7eb;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0em;
+    color: #4b5563;
+    padding-bottom: 10px;
+}
+.block_stash .h5 {
+    font-size: 0.75rem;
+    color: #4b5563;
+}
+.block_stash li {
+    font-size: 0.8rem;
+}
+
+.edw-stats-wrapper {
+    border-radius: 8px;
+}

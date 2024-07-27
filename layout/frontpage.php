@@ -40,20 +40,7 @@ require_once($CFG->dirroot . '/theme/remui/layout/common_end.php');
 
 $templatecontext['bodyattributes'] = str_replace("limitedwidth", "", $templatecontext['bodyattributes']);
 
-if (is_plugin_available("local_remuihomepage") && \theme_remui\toolbox::get_setting('frontpagechooser') == 1) {
-    $homepage = new local_remuihomepage_plugin();
-    $templatecontext['contextid'] = context_system::instance()->id;
-    $templatecontext = $homepage->layout($templatecontext);
-
-    // As we have older plugin we had to do some tweaks to context data.
-    $floatingbtns = $templatecontext['floating_buttons'];
-    $floatingbtns = str_replace('fa fa-cog', 'edw-icon edw-icon-Setting', $floatingbtns);
-    $floatingbtns = str_replace('fa fa-eye', 'edw-icon edw-icon-Show', $floatingbtns);
-    $floatingbtns = str_replace('fa fa-cloud-upload', 'edw-icon edw-icon-Upload', $floatingbtns);
-    $floatingbtns = str_replace('fa fa-plus', 'rotate-45 edw-icon edw-icon-Cancel', $floatingbtns);
-    $templatecontext['floating_buttons'] = $floatingbtns;
-
-} else if (\theme_remui\toolbox::get_setting('frontpagechooser') == 0) {
+if (\theme_remui\toolbox::get_setting('frontpagechooser') == 0) {
     // Frontpage context.
             // Frontpage context.
     // Slider.

@@ -86,12 +86,8 @@ if (\theme_remui\toolbox::get_setting('enablequickmenu') && isloggedin()) {
     $templatecontext['edw_quick_menu'] = \theme_remui\utility::edw_quick_menu();
 
 }
-$loaderimage = \theme_remui\toolbox::setting_file_url('loaderimage', 'loaderimage');
-if (empty($loaderimage)) {
-    $loaderimage   = $CFG->wwwroot.'/theme/remui/pix/owl_loader.gif';
-}
-$templatecontext['loaderimageurl'] = $loaderimage;
 
+$templatecontext['statloader'] = $CFG->wwwroot.'/theme/remui/pix/statloader.gif';
 // Add a block floating button
 $templatecontext['addblockfloatmenu'] = \theme_remui\utility::addblockfloatmenu();
 
@@ -129,11 +125,16 @@ foreach ($PAGE->blocks->get_regions() as $region) {
     }
     $blockregions[] = $region;
 }
-//important  code used at multiple places
-$PAGE->requires->data_for_js('availableblockregions', $blockregions);
-// Used in add a block modal pagelayout modals
-$PAGE->requires->data_for_js('regionsnamearray', $regionnamearray);
-$PAGE->requires->js_call_amd('theme_remui/blockmovehandler', 'init');
+if ($PAGE->user_is_editing()) {
+
+    // Important  code used at multiple places.
+    $PAGE->requires->data_for_js('availableblockregions', $blockregions);
+
+    // Used in add a block modal pagelayout modals.
+    $PAGE->requires->data_for_js('regionsnamearray', $regionnamearray);
+
+    $PAGE->requires->js_call_amd('theme_remui/blockmovehandler', 'init');
+}
 
 // Edwiser navbar layout.
 $templatecontext['navlayout'] = \theme_remui\toolbox::get_setting('header-primary-layout-desktop');
@@ -154,3 +155,9 @@ $PAGE->requires->strings_for_js(array(
 // It will not work if curl is not istalled.
 $ranalytics = new \theme_remui\usage_tracking();
 $ranalytics->send_usage_analytics();
+
+// Dark Mode injection.
+$dmhandler = new theme_remui_darkmodehandler(true);
+$templatecontext['canenabledm'] = $dmhandler->init();
+$templatecontext['dmanimate'] = $dmhandler->show_icon_animation();
+
